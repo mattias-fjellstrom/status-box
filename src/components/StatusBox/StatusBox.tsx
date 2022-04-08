@@ -1,4 +1,5 @@
 import React from "react";
+import "./StatusBox.css";
 
 export interface StatusBoxProps {
   title: string;
@@ -6,7 +7,7 @@ export interface StatusBoxProps {
 
 const StatusBox = (props: StatusBoxProps) => {
   return (
-    <div>
+    <div className="success">
       <p>{props.title}</p>
     </div>
   );

@@ -1,6 +1,9 @@
 {
-  "name": "status-box",
-  "version": "1.0.0",
+  "name": "@mattias-fjellstrom/status-box",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mattias-fjellstrom"
+  },
+  "version": "1.0.1",
   "description": "A simple status box component",
   "scripts": {
     "rollup": "rollup -c"
@@ -15,6 +18,7 @@
     "react": "^18.0.0",
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.6.3"
   },
   "main": "dist/cjs/index.js",
