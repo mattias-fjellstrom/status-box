@@ -1,1 +1,2 @@
-export { default } from "./StatusBox";
+export * from "./StatusBox";
+export * from "./types";

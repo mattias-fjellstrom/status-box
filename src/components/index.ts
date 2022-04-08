@@ -1,1 +1,1 @@
-export { default as StatusBox } from "./StatusBox";
+export * from "./StatusBox";

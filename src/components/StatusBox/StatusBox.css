@@ -1,3 +1,15 @@
 .success {
   background-color: #198754;
 }
+
+.error {
+  background-color: #dc3545;
+}
+
+.warning {
+  background-color: #ffc107;
+}
+
+.unknown {
+  background-color: #6c757d;
+}
